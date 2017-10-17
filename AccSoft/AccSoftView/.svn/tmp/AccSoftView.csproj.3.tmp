@@ -1,0 +1,290 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76C70813-F190-4725-9271-91FB31FE6537}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AccSoftView</RootNamespace>
+    <AssemblyName>AccSoftView</AssemblyName>
+    <StartupObject>DevExpress.XtraBars.Demos.DockingDemo.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.OfficeSkins.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Tutorials.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+<<<<<<< .mine
+    <Reference Include="DevExpress.XtraLayout.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Developer Express .NET v8.1\\Sources\DevExpress.DLL\DevExpress.XtraLayout.v8.1.dll</HintPath>
+    </Reference>
+=======
+    <Reference Include="DevExpress.XtraLayout.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+>>>>>>> .r50
+    <Reference Include="DevExpress.XtraNavBar.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Developer Express .NET v8.1\\Sources\DevExpress.DLL\DevExpress.XtraScheduler.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v8.1.Core, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v8.1, Version=8.1.2.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataMaster\FrmDaftarSuplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataMaster\FrmDaftarSuplier.Designer.cs">
+      <DependentUpon>FrmDaftarSuplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataMaster\RegistrasiCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataMaster\RegistrasiCustomer.designer.cs">
+      <DependentUpon>RegistrasiCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataMaster\RegistrasiSuplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataMaster\RegistrasiSuplier.Designer.cs">
+      <DependentUpon>RegistrasiSuplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display\FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display\frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display\FrmMain1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display\FrmMain1.Designer.cs">
+      <DependentUpon>FrmMain1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display\FrmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display\FrmSplash.Designer.cs">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pembelian\CnDnPembelian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pembelian\CnDnPembelian.Designer.cs">
+      <DependentUpon>CnDnPembelian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pembelian\FakturPembelian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pembelian\FakturPembelian.Designer.cs">
+      <DependentUpon>FakturPembelian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pembelian\MutasiStokApk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pembelian\MutasiStokApk.Designer.cs">
+      <DependentUpon>MutasiStokApk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pembelian\PembayaranHutang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pembelian\PembayaranHutang.Designer.cs">
+      <DependentUpon>PembayaranHutang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pembelian\PencairanCekBgKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pembelian\PencairanCekBgKeluar.Designer.cs">
+      <DependentUpon>PencairanCekBgKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\CN_DNPenjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjualan\CN_DNPenjualan.designer.cs">
+      <DependentUpon>CN_DNPenjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\FakturPenjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjualan\FakturPenjualan.designer.cs">
+      <DependentUpon>FakturPenjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\PembayaranPiutang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjualan\PembayaranPiutang.Designer.cs">
+      <DependentUpon>PembayaranPiutang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\PencairanCekMasuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjualan\PencairanCekMasuk.Designer.cs">
+      <DependentUpon>PencairanCekMasuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DataMaster\FrmDaftarSuplier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDaftarSuplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataMaster\RegistrasiCustomer.resx">
+      <DependentUpon>RegistrasiCustomer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataMaster\RegistrasiSuplier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RegistrasiSuplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display\FrmMain1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMain1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display\FrmSplash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembelian\CnDnPembelian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CnDnPembelian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembelian\FakturPembelian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FakturPembelian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembelian\MutasiStokApk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MutasiStokApk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembelian\PembayaranHutang.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PembayaranHutang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembelian\PencairanCekBgKeluar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PencairanCekBgKeluar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\CN_DNPenjualan.resx">
+      <DependentUpon>CN_DNPenjualan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\FakturPenjualan.resx">
+      <DependentUpon>FakturPenjualan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\PembayaranPiutang.resx">
+      <DependentUpon>PembayaranPiutang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\PencairanCekMasuk.resx">
+      <DependentUpon>PencairanCekMasuk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simpan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.jpg" />
+    <Content Include="Resources\faktur penjualan.png" />
+    <Content Include="Resources\Login.png" />
+    <Content Include="Resources\Masuk.png" />
+    <Content Include="Resources\No-entry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccController\AccController.csproj">
+      <Project>{F30F2B90-7393-472F-87BA-77843C4D7EEC}</Project>
+      <Name>AccController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AccModelService\AccModelService.csproj">
+      <Project>{ED342A65-6465-4BAB-A53A-9CF2FB2D1FD4}</Project>
+      <Name>AccModelService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GeneralLedger\" />
+    <Folder Include="Gudang\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

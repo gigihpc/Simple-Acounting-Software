@@ -1,0 +1,157 @@
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe.config
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.pdb
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\ResolveAssemblyReference.cache
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.Reg_Customer.resources
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.RegistrasiSuplier.resources
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\DevExpress.XtraBars.Demos.DockingDemo.frmMain.resources
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.CnDnPembelian.resources
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.FakturPembelian.resources
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.CN_DNPenjualan.resources
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.FakturPenjualanTanpaSJ.resources
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Properties.Resources.resources
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.csproj.GenerateResource.Cache
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.exe
+D:\MY PROJECT & PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.pdb
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe.config
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.exe
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.pdb
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.pdb
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\ResolveAssemblyReference.cache
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.Reg_Customer.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.RegistrasiSuplier.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\DevExpress.XtraBars.Demos.DockingDemo.frmMain.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.CnDnPembelian.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.FakturPembelian.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.CN_DNPenjualan.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.FakturPenjualanTanpaSJ.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Properties.Resources.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.csproj.GenerateResource.Cache
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PembayaranHutang.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PencairanCekBgKeluar.resources
+D:\MY PROJECT dan PELATIHAN\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.MutasiStokApk.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe.config
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.exe
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.pdb
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\ResolveAssemblyReference.cache
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.Reg_Customer.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.RegistrasiSuplier.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmLogin.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\DevExpress.XtraBars.Demos.DockingDemo.frmMain.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmSplash.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.CnDnPembelian.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.FakturPembelian.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.MutasiStokApk.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PembayaranHutang.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PencairanCekBgKeluar.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.CN_DNPenjualan.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.FakturPenjualanTanpaSJ.resources
+D:\Suhel\Tapir's Accountant Software\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.csproj.GenerateResource.Cache
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe.config
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.exe
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.pdb
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\ResolveAssemblyReference.cache
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.Reg_Customer.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.RegistrasiSuplier.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmLogin.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\DevExpress.XtraBars.Demos.DockingDemo.frmMain.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmSplash.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.CnDnPembelian.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.FakturPembelian.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.MutasiStokApk.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PembayaranHutang.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PencairanCekBgKeluar.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.CN_DNPenjualan.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.FakturPenjualanTanpaSJ.resources
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.csproj.GenerateResource.Cache
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.pdb
+D:\Suhel\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Properties.Resources.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\ResolveAssemblyReference.cache
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmDaftarSuplier.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmDaftarCustomer.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmMataUang.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmUser.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.Reg_Customer.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.RegistrasiSuplier.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmLogin.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\DevExpress.XtraBars.Demos.DockingDemo.frmMain.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmMain1.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmSplash.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.CnDnPembelian.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.FakturPembelian.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.MutasiStokApk.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PembayaranHutang.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PencairanCekBgKeluar.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.CN_DNPenjualan.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.FakturPenjualan.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.PembayaranPiutang.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.PencairanCekMasuk.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Properties.Resources.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.csproj.GenerateResource.Cache
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe.config
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.pdb
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccController.dll
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccModelService.dll
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccController.pdb
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccModelService.pdb
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.exe
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.pdb
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmKasBank.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmKodePerkiraan.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmMasterAktiva.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmMultipleJurnal.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmMutasiAktiva.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmSaldoAwal.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmSingleJurnal.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmGudang.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Gudang.FrmItem.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Gudang.FrmBuktiBrgKeluarAPG.resources
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Gudang.FrmBuktiBrgMasukAPG.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe.config
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.exe
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccController.dll
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccModelService.dll
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccController.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccModelService.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\ResolveAssemblyReference.cache
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmDaftarSuplier.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmDaftarCustomer.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmMataUang.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmUser.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.Reg_Customer.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.RegistrasiSuplier.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmLogin.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\DevExpress.XtraBars.Demos.DockingDemo.frmMain.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmMain1.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Display.FrmSplash.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmKasBank.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmKodePerkiraan.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmMasterAktiva.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmMultipleJurnal.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmMutasiAktiva.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmSaldoAwal.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.GeneralLedger.FrmSingleJurnal.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Gudang.FrmBuktiBrgKeluarAPG.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Gudang.FrmBuktiBrgMasukAPG.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.DataMaster.FrmGudang.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Gudang.FrmItem.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.CnDnPembelian.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.FakturPembelian.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.MutasiStokApk.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PembayaranHutang.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Pembelian.PencairanCekBgKeluar.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.CN_DNPenjualan.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.FakturPenjualan.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.PembayaranPiutang.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Penjualan.PencairanCekMasuk.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.Properties.Resources.resources
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.csproj.GenerateResource.Cache
+D:\GIH\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\bin\Debug\AccSoftView.exe.config
+D:\GIH\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.exe
+D:\GIH\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccSoftView\obj\Debug\AccSoftView.pdb

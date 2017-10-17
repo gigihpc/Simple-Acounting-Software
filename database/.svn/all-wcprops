@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tapir-s-accounting-software/!svn/ver/62/database
+END
+dbAccSoft.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tapir-s-accounting-software/!svn/ver/62/database/dbAccSoft.mdf
+END
+dbAccSoft_log.ldf
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tapir-s-accounting-software/!svn/ver/62/database/dbAccSoft_log.ldf
+END

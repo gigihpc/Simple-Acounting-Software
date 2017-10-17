@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccSoftView", "AccSoftView\AccSoftView.csproj", "{76C70813-F190-4725-9271-91FB31FE6537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccModelService", "AccModelService\AccModelService.csproj", "{ED342A65-6465-4BAB-A53A-9CF2FB2D1FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccController", "AccController\AccController.csproj", "{F30F2B90-7393-472F-87BA-77843C4D7EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C70813-F190-4725-9271-91FB31FE6537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C70813-F190-4725-9271-91FB31FE6537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C70813-F190-4725-9271-91FB31FE6537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C70813-F190-4725-9271-91FB31FE6537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED342A65-6465-4BAB-A53A-9CF2FB2D1FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED342A65-6465-4BAB-A53A-9CF2FB2D1FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED342A65-6465-4BAB-A53A-9CF2FB2D1FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED342A65-6465-4BAB-A53A-9CF2FB2D1FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30F2B90-7393-472F-87BA-77843C4D7EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30F2B90-7393-472F-87BA-77843C4D7EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30F2B90-7393-472F-87BA-77843C4D7EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30F2B90-7393-472F-87BA-77843C4D7EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

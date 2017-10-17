@@ -1,0 +1,14 @@
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\obj\Debug\ResolveAssemblyReference.cache
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\bin\Debug\AccController.dll
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\bin\Debug\AccController.pdb
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\bin\Debug\AccModelService.dll
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\bin\Debug\AccModelService.pdb
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\obj\Debug\AccController.dll
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\obj\Debug\AccController.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\bin\Debug\AccController.dll
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\bin\Debug\AccController.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\bin\Debug\AccModelService.dll
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\bin\Debug\AccModelService.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\obj\Debug\ResolveAssemblyReference.cache
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\obj\Debug\AccController.dll
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccController\obj\Debug\AccController.pdb

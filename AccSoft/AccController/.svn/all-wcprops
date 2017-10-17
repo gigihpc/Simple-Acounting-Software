@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccController
+END
+CNPembelianCOntrol.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tapir-s-accounting-software/!svn/ver/67/trunk/AccSoft/AccController/CNPembelianCOntrol.cs
+END
+UserControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tapir-s-accounting-software/!svn/ver/54/trunk/AccSoft/AccController/UserControl.cs
+END
+KodePerkiraanControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tapir-s-accounting-software/!svn/ver/75/trunk/AccSoft/AccController/KodePerkiraanControl.cs
+END
+CnDnPenjualanControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tapir-s-accounting-software/!svn/ver/70/trunk/AccSoft/AccController/CnDnPenjualanControl.cs
+END
+SuplierControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tapir-s-accounting-software/!svn/ver/39/trunk/AccSoft/AccController/SuplierControl.cs
+END
+AccController.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccController/AccController.csproj
+END
+FakturPenjualanControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tapir-s-accounting-software/!svn/ver/60/trunk/AccSoft/AccController/FakturPenjualanControl.cs
+END
+PembHutangControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tapir-s-accounting-software/!svn/ver/69/trunk/AccSoft/AccController/PembHutangControl.cs
+END
+MataUangControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tapir-s-accounting-software/!svn/ver/54/trunk/AccSoft/AccController/MataUangControl.cs
+END
+ItemControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tapir-s-accounting-software/!svn/ver/74/trunk/AccSoft/AccController/ItemControl.cs
+END
+CustomerControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tapir-s-accounting-software/!svn/ver/50/trunk/AccSoft/AccController/CustomerControl.cs
+END
+BrgMasukAPGControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccController/BrgMasukAPGControl.cs
+END
+GudangControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tapir-s-accounting-software/!svn/ver/54/trunk/AccSoft/AccController/GudangControl.cs
+END
+BrgKeluarAPGControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccController/BrgKeluarAPGControl.cs
+END
+PembayaranPiutangControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tapir-s-accounting-software/!svn/ver/74/trunk/AccSoft/AccController/PembayaranPiutangControl.cs
+END
+FakturPembelianControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tapir-s-accounting-software/!svn/ver/56/trunk/AccSoft/AccController/FakturPembelianControl.cs
+END

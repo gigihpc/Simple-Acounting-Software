@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tapir-s-accounting-software/!svn/ver/82/trunk/AccSoft/AccSoftView/GeneralLedger
+END
+FrmSaldoAwal.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmSaldoAwal.Designer.cs
+END
+FrmMultipleJurnal.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMultipleJurnal.Designer.cs
+END
+FrmMultipleJurnal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMultipleJurnal.cs
+END
+FrmMasterAktiva.resx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMasterAktiva.resx
+END
+FrmSaldoAwal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tapir-s-accounting-software/!svn/ver/71/trunk/AccSoft/AccSoftView/GeneralLedger/FrmSaldoAwal.cs
+END
+FrmKasBank.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tapir-s-accounting-software/!svn/ver/78/trunk/AccSoft/AccSoftView/GeneralLedger/FrmKasBank.Designer.cs
+END
+FrmSingleJurnal.resx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tapir-s-accounting-software/!svn/ver/71/trunk/AccSoft/AccSoftView/GeneralLedger/FrmSingleJurnal.resx
+END
+FrmKasBank.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tapir-s-accounting-software/!svn/ver/71/trunk/AccSoft/AccSoftView/GeneralLedger/FrmKasBank.cs
+END
+FrmMutasiAktiva.resx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMutasiAktiva.resx
+END
+FrmKodePerkiraan.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tapir-s-accounting-software/!svn/ver/75/trunk/AccSoft/AccSoftView/GeneralLedger/FrmKodePerkiraan.Designer.cs
+END
+FrmKodePerkiraan.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tapir-s-accounting-software/!svn/ver/75/trunk/AccSoft/AccSoftView/GeneralLedger/FrmKodePerkiraan.cs
+END
+FrmMultipleJurnal.resx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMultipleJurnal.resx
+END
+FrmSaldoAwal.resx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tapir-s-accounting-software/!svn/ver/71/trunk/AccSoft/AccSoftView/GeneralLedger/FrmSaldoAwal.resx
+END
+FrmKasBank.resx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tapir-s-accounting-software/!svn/ver/71/trunk/AccSoft/AccSoftView/GeneralLedger/FrmKasBank.resx
+END
+FrmMasterAktiva.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMasterAktiva.Designer.cs
+END
+FrmMasterAktiva.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMasterAktiva.cs
+END
+FrmKodePerkiraan.resx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tapir-s-accounting-software/!svn/ver/71/trunk/AccSoft/AccSoftView/GeneralLedger/FrmKodePerkiraan.resx
+END
+FrmSingleJurnal.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmSingleJurnal.Designer.cs
+END
+FrmSingleJurnal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tapir-s-accounting-software/!svn/ver/71/trunk/AccSoft/AccSoftView/GeneralLedger/FrmSingleJurnal.cs
+END
+FrmMutasiAktiva.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tapir-s-accounting-software/!svn/ver/82/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMutasiAktiva.Designer.cs
+END
+FrmMutasiAktiva.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccSoftView/GeneralLedger/FrmMutasiAktiva.cs
+END

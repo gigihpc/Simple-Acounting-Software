@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 42
+/svn/tapir-s-accounting-software/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccSoftView
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tapir-s-accounting-software/!svn/ver/42/trunk/AccSoft/AccSoftView/app.config
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tapir-s-accounting-software/!svn/ver/40/trunk/AccSoft/AccSoftView/Program.cs
+END
+AccSoftView.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tapir-s-accounting-software/!svn/ver/83/trunk/AccSoft/AccSoftView/AccSoftView.csproj
+END

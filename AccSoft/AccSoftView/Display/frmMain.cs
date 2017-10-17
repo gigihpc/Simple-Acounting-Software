@@ -1,0 +1,510 @@
+using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Data;
+using DevExpress.XtraEditors.Controls;
+using DevExpress.XtraEditors;
+using DevExpress.XtraBars.Docking;
+using AccSoftView;
+using AccSoftView.Display;
+using AccSoftView.Pembelian;
+using AccSoftView.Penjualan;
+using AccSoftView.DataMaster;
+
+namespace DevExpress.XtraBars.Demos.DockingDemo {
+	public partial class frmMain : DevExpress.XtraEditors.XtraForm {
+        private Reg_Customer regCustomer;
+        private RegistrasiSuplier regSuplier;
+        private FrmLogin frmLogin;
+        private CnDnPembelian CnDnPemb;
+        private FakturPembelian fktrPemb;
+        private MutasiStokApk mStokApk;
+        private PencairanCekBgKeluar CekKeluar;
+        private PembayaranHutang PembHutang;
+        private CN_DNPenjualan CnDnPenj;
+        private FakturPenjualan fktrPenj;
+        private PembayaranPiutang pembPiutang;
+        private PencairanCekMasuk CekMasuk;
+       
+        public frmMain(FrmLogin f)
+        {
+			InitializeComponent();
+            regCustomer = new Reg_Customer();
+            regSuplier = new RegistrasiSuplier();
+            CnDnPemb = new CnDnPembelian();
+            fktrPemb = new FakturPembelian();
+            mStokApk = new MutasiStokApk();
+            CekKeluar = new PencairanCekBgKeluar();
+            PembHutang = new PembayaranHutang();
+            CnDnPenj = new CN_DNPenjualan();
+            fktrPenj = new FakturPenjualan();
+            pembPiutang = new PembayaranPiutang();
+            CekMasuk = new PencairanCekMasuk();
+            frmLogin = f;
+
+            //SetParent
+            regCustomer.MdiParent = this;
+            regSuplier.MdiParent = this;
+            CnDnPemb.MdiParent = this;
+            fktrPemb.MdiParent = this;
+            mStokApk.MdiParent = this;
+            CekKeluar.MdiParent = this;
+            PembHutang.MdiParent = this;
+            CnDnPenj.MdiParent = this;
+            fktrPenj.MdiParent = this;
+            pembPiutang.MdiParent = this;
+            CekMasuk.MdiParent = this;
+
+            //xtraPropertyGrid1.PropertyGrid.AutoGenerateRows = true;
+		}
+		
+		#region Skins
+		
+		void InitSkins() {
+			barManager1.ForceInitialize();
+			if(barManager1.GetController().PaintStyleName == "Skin") {
+				iPaintStyle.Caption = skinMask + DevExpress.LookAndFeel.UserLookAndFeel.Default.ActiveSkinName;
+				iPaintStyle.Hint = iPaintStyle.Caption;
+			}
+			foreach(DevExpress.Skins.SkinContainer cnt in DevExpress.Skins.SkinManager.Default.Skins) {
+				BarButtonItem item = new BarButtonItem(barManager1, skinMask + cnt.SkinName);
+				item.Name = "bi" + cnt.SkinName;
+				item.Id = barManager1.GetNewItemId();
+				iPaintStyle.AddItem(item);
+				item.ItemClick += new ItemClickEventHandler(OnSkinClick);
+			}
+		}
+		void OnSkinClick(object sender, ItemClickEventArgs e) {
+			string skinName = e.Item.Caption.Replace(skinMask, "");
+			DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle(skinName); 
+			barManager1.GetController().PaintStyleName = "Skin";
+			//solutionExplorer1.barManager1.GetController().PaintStyleName = "Skin";
+			iPaintStyle.Caption = e.Item.Caption;
+			iPaintStyle.Hint = iPaintStyle.Caption;
+			iPaintStyle.ImageIndex = -1;
+		}
+		#endregion
+
+		string skinMask = "Skin: ";
+       // int projectIndex = 0;
+        Cursor currentCursor;
+
+		void InitDockMode() {
+			Array arr = Enum.GetValues(typeof(DevExpress.XtraBars.Docking.Helpers.DockMode));
+			foreach(object mode in arr)
+				repositoryItemImageComboBox1.Items.Add(new ImageComboBoxItem(mode.ToString(), mode, -1));
+			beiDockMode.EditValue = dockManager1.DockMode;
+		}
+
+		private void beiDockMode_EditValueChanged(object sender, System.EventArgs e) {
+			dockManager1.DockMode = (DevExpress.XtraBars.Docking.Helpers.DockMode)beiDockMode.EditValue;
+		}
+
+		
+		private void InitDemo() {
+		/*	AddControls(this, comboBox1);
+			comboBox1.SelectedIndex = 0;
+			comboBox2.SelectedIndex = 0;
+			textBox1.ContextMenu = textBox2.ContextMenu = new ContextMenu();
+			AddNewForm("New Solution");
+			DevExpress.Demos.ClassViewer.AddClassInfo(treeView1, this.GetType(), new object[] {this, new SolutionExplorer()});*/
+		}
+
+        private void AddNewForm()
+        {
+            Form newForm = new Form();
+			newForm.MdiParent = this;
+			//newForm.Text = s;
+			RichTextBox tb = new RichTextBox();
+			tb.Dock = DockStyle.Fill;
+			tb.BorderStyle = BorderStyle.None; 
+			tb.SelectionChanged += new EventHandler(tb_SelectionChanged);
+			barManager1.SetPopupContextMenu(tb, popupMenu2);
+			newForm.Controls.Add(tb);
+			newForm.Show();
+		}
+
+		private RichTextBox ActiveRTB {
+			get { 
+				if(this.ActiveMdiChild != null) 
+					return this.ActiveMdiChild.Controls[0] as RichTextBox;  			
+				return null;
+			}
+		}
+
+		private void InitEdit() {
+			RichTextBox rtb = ActiveRTB;
+			if(rtb != null) {
+				iCut.Enabled = iCopy.Enabled = rtb.SelectedText != "";
+				iPaste.Enabled = rtb.CanPaste(DataFormats.GetFormat(0));
+				iUndo.Enabled = rtb.CanUndo;
+				iRedo.Enabled = rtb.CanRedo;
+			} else {
+				iCut.Enabled = iCopy.Enabled = iPaste.Enabled = iUndo.Enabled = iRedo.Enabled = false;
+            }
+		}
+
+		private void tb_SelectionChanged(object sender, EventArgs e) {
+			InitEdit();
+		}
+
+		private void AddControls(Control container, DevExpress.XtraEditors.ComboBoxEdit cb) {
+			foreach(object obj in container.Controls) {
+				cb.Properties.Items.Add(obj);
+				if(obj is Control) AddControls(obj as Control, cb);
+			}
+		}
+
+		private void repositoryItemComboBox1_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e) {
+			if(e.KeyCode == Keys.Enter && eFind.EditValue != null)
+				repositoryItemComboBox1.Items.Add(eFind.EditValue.ToString());
+		}
+
+		private void comboBox2_SelectedIndexChanged(object sender, System.EventArgs e) {
+			/*if(comboBox2.SelectedIndex == 0) 
+				textBox2.Text = " ------ Build started: Project: DockingDemo, Configuration: Debug .NET ------\r\n\r\n Preparing resources...\r\n Updating references...\r\n Performing main compilation...\r\n\r\n Build complete -- 0 errors, 0 warnings\r\n Building satellite assemblies...\r\n\r\n\r\n ---------------------- Done ----------------------\r\n\r\n     Build: 1 succeeded, 0 failed, 0 skipped";
+			else textBox2.Text = " 'DefaultDomain': Loaded 'd:\\winnt\\microsoft.net\\framework\\v1.0.3705\\mscorlib.dll', No symbols loaded.\r\n 'DockingDemo': Loaded 'C:\\BarDemos\\CS\\DockingDemo\\bin\\Debug\\DockingDemo.exe', Symbols loaded.";*/
+		}
+
+		private void textBox2_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e) {
+			e.Handled = true;
+		}
+
+		private void comboBox1_SelectedIndexChanged(object sender, System.EventArgs e) {
+			//xtraPropertyGrid1.PropertyGrid.SelectedObject = comboBox1.SelectedItem;
+		}
+
+		private void ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+		}
+
+		private void iCascade_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			this.LayoutMdi(MdiLayout.Cascade);
+		}
+
+		private void iHorizontal_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			this.LayoutMdi(MdiLayout.TileHorizontal);
+		}
+
+		private void iVertical_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			this.LayoutMdi(MdiLayout.TileVertical);
+		}
+
+		private void iAbout_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			DevExpress.Utils.About.frmAbout dlg = new DevExpress.Utils.About.frmAbout("DockingDemo for the XtraBars by Developer Express Inc.");
+			dlg.ShowDialog();
+		}
+
+		private void frmMain_MdiChildActivate(object sender, System.EventArgs e) {
+			InitEdit();
+		}
+
+		private void iCut_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			RichTextBox rtb = ActiveRTB;
+			if(rtb != null) rtb.Cut();
+		}
+
+		private void iCopy_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			RichTextBox rtb = ActiveRTB;
+			if(rtb != null) rtb.Copy();
+		}
+
+		private void iPaste_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			RichTextBox rtb = ActiveRTB;
+			if(rtb != null) rtb.Paste();
+		}
+
+		private void iSelectAll_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			RichTextBox rtb = ActiveRTB;
+			if(rtb != null) {
+				rtb.SelectAll();
+				rtb.Focus();
+			}
+		}
+
+		private void iUndo_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			RichTextBox rtb = ActiveRTB;
+			if(rtb != null) rtb.Undo();
+			InitEdit();
+		}
+
+		private void iRedo_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			RichTextBox rtb = ActiveRTB;
+			if(rtb != null) rtb.Redo();
+			InitEdit();
+		}
+        //AB15908
+        protected DockPanel GetTopDockPanelCore(DockPanel panel) {
+            if(panel.ParentPanel != null) return GetTopDockPanel(panel.ParentPanel);
+            else return panel;
+        }
+        protected DockPanel GetTopDockPanel(DockPanel panel) {
+            DockPanel floatPanelCandidate = GetTopDockPanelCore(panel);
+            if(floatPanelCandidate.Dock == DockingStyle.Float) return floatPanelCandidate;
+            else return panel;
+        }
+        //AB15908
+		private void iSolutionExplorer_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+           // GetTopDockPanel(dockPanel1).Show();
+		}
+
+		private void iProperties_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            //GetTopDockPanel(dockPanel2).Show();
+		}
+
+		private void iTaskList_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            //GetTopDockPanel(dockPanel3).Show();
+		}
+
+		private void iFindResults_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            //GetTopDockPanel(dockPanel4).Show();
+		}
+
+		private void iOutput_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            //GetTopDockPanel(dockPanel5).Show();
+		}
+		private void iToolbox_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+           // GetTopDockPanel(dockPanel6).Show();
+		}
+
+		private void solutionExplorer1_PropertiesItemClick(object sender, System.EventArgs e) {
+            //GetTopDockPanel(dockPanel2).Show();
+		}
+
+		private void iSaveLayout_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			SaveFileDialog dlg = new SaveFileDialog();
+			dlg.Filter = "XML files (*.xml)|*.xml";
+			dlg.Title = "Save Layout";
+			if (dlg.ShowDialog() == DialogResult.OK) {
+				Refresh(true);
+				barManager1.SaveToXml(dlg.FileName);
+				Refresh(false);
+			}
+		}
+		private void iLoadLayout_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			OpenFileDialog dlg = new OpenFileDialog();
+			dlg.Filter = "XML files (*.xml)|*.xml|All files|*.*";
+			dlg.Title = "Restore Layout";
+			if (dlg.ShowDialog() == DialogResult.OK) {
+				Refresh(true);
+				try {
+					barManager1.RestoreFromXml(dlg.FileName);
+				} catch {}
+				Refresh(false);
+			}
+		}
+		
+		private void Refresh(bool isWait) {
+			if(isWait) {
+				currentCursor = Cursor.Current;
+				Cursor.Current = Cursors.WaitCursor;
+			} else 
+				Cursor.Current = currentCursor;
+			this.Refresh();
+		}
+
+		private void iExit_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			frmLogin.Close();
+		}
+
+		private void barManager1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			iStatus2.Caption = "'" + e.Item.Caption + "' has been clicked";
+		}
+
+		private void ips_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			barManager1.GetController().PaintStyleName = e.Item.Description;
+			InitPaintStyle(e.Item);
+			barManager1.GetController().ResetStyleDefaults();
+			DevExpress.LookAndFeel.UserLookAndFeel.Default.SetDefaultStyle();
+		}
+
+		private void InitPaintStyle(BarItem item) {
+			/*if(item == null) return;
+			iPaintStyle.ImageIndex = item.ImageIndex;
+			iPaintStyle.Caption = item.Caption;
+			iPaintStyle.Hint = item.Description;
+			solutionExplorer1.barManager1.GetController().PaintStyleName = barManager1.GetController().PaintStyleName;
+			solutionExplorer1.barManager1.GetController().ResetStyleDefaults();*/
+		}
+
+		private void ips_Init() {
+			BarItem item = null;
+			for(int i = 0; i < barManager1.Items.Count; i++)
+				if(barManager1.Items[i].Description == barManager1.GetController().PaintStyleName)
+					item = barManager1.Items[i];
+			InitPaintStyle(item);
+		}
+
+		void InitTabbedMDI() {
+			xtraTabbedMdiManager1.MdiParent = biTabbedMDI.Down ? this : null;
+			iCascade.Enabled = iHorizontal.Enabled = iVertical.Enabled = !biTabbedMDI.Down;
+		}
+		private void biTabbedMDI_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+			InitTabbedMDI();
+		}
+
+		private void frmMain_Load(object sender, System.EventArgs e) {
+			ips_Init();
+			InitSkins();
+			InitTabbedMDI();
+			InitDockMode();
+			BeginInvoke(new MethodInvoker(InitDemo));
+		}
+
+        private void navBarCustomer_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (regCustomer.IsDisposed)
+            {
+                regCustomer = null;
+                regCustomer = new Reg_Customer();
+                regCustomer.MdiParent = this;
+            }
+
+            //regCustomer.Activate();
+            regCustomer.Show();
+            regCustomer.Focus();
+        }
+
+        private void navBarCNPenjualan_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (CnDnPenj.IsDisposed)
+            {
+                CnDnPenj = null;
+                CnDnPenj = new CN_DNPenjualan();
+                CnDnPenj.MdiParent = this;
+            }
+
+            CnDnPenj.Show();
+            CnDnPenj.Focus();
+        }
+
+        private void navBarPembayaranPiutang_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (pembPiutang.IsDisposed)
+            {
+                pembPiutang = null;
+                pembPiutang = new PembayaranPiutang();
+                pembPiutang.MdiParent = this;
+            }
+
+            pembPiutang.Show();
+            pembPiutang.Focus();
+        }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frmLogin.Close();
+        }
+
+        private void navBarSupervisor_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            
+        }
+
+        private void navBarSalesman_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (regSuplier.IsDisposed)
+            {
+                regSuplier = null;
+                regSuplier = new RegistrasiSuplier();
+                regSuplier.MdiParent = this;
+            }
+
+            regSuplier.Show();
+            regSuplier.Focus();
+        }
+
+        private void navBarFakturPenjualan_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (pembPiutang.IsDisposed)
+            {
+                fktrPenj = null;
+                fktrPenj = new FakturPenjualan();
+                fktrPenj.MdiParent = this;
+            }
+
+            fktrPenj.Show();
+            fktrPenj.Focus();
+        }
+
+        private void navBarDNPembelian_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (CnDnPemb.IsDisposed)
+            {
+                CnDnPemb = null;
+                CnDnPemb = new CnDnPembelian();
+                CnDnPemb.MdiParent = this;
+            }
+
+            CnDnPemb.Show();
+            CnDnPemb.Focus();
+        }
+
+        private void navBarPembayaranHutang_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (PembHutang.IsDisposed)
+            {
+                PembHutang = null;
+                PembHutang = new PembayaranHutang();
+                PembHutang.MdiParent = this;
+            }
+
+            PembHutang.Show();
+            PembHutang.Focus();
+        }
+
+        private void navBar_MutasiStokApk_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (pembPiutang.IsDisposed)
+            {
+                mStokApk = null;
+                mStokApk = new MutasiStokApk();
+                mStokApk.MdiParent = this;
+            }
+
+            mStokApk.Show();
+            mStokApk.Focus();
+        }
+
+        private void navBar_cekMasuk_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (CekMasuk.IsDisposed)
+            {
+                CekMasuk = null;
+                CekMasuk = new PencairanCekMasuk();
+                CekMasuk.MdiParent = this;
+            }
+
+            CekMasuk.Show();
+            CekMasuk.Focus();
+        }
+
+        private void navBar_cekKeluar_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (CekKeluar.IsDisposed)
+            {
+                CekKeluar = null;
+                CekKeluar = new PencairanCekBgKeluar();
+                CekKeluar.MdiParent = this;
+            }
+
+            CekKeluar.Show();
+            CekKeluar.Focus();
+        }
+
+        private void navBarFakturPembelian_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            if (fktrPemb.IsDisposed)
+            {
+                fktrPemb = null;
+                fktrPemb = new FakturPembelian();
+                fktrPemb.MdiParent = this;
+            }
+
+            fktrPemb.Show();
+            fktrPemb.Focus();
+        }
+      
+	}
+}

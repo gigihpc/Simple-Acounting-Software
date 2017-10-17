@@ -1,0 +1,10 @@
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\obj\Debug\ResolveAssemblyReference.cache
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\bin\Debug\AccModelService.dll
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\bin\Debug\AccModelService.pdb
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\obj\Debug\AccModelService.dll
+D:\Gigih\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\obj\Debug\AccModelService.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\bin\Debug\AccModelService.dll
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\bin\Debug\AccModelService.pdb
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\obj\Debug\ResolveAssemblyReference.cache
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\obj\Debug\AccModelService.dll
+D:\Gigih\Project\Project SI\TapirAccountantSoftware\trunk\AccSoft\AccModelService\obj\Debug\AccModelService.pdb

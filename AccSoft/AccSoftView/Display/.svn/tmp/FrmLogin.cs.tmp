@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using DevExpress.XtraEditors;
+using DevExpress.XtraBars.Demos.DockingDemo;
+//using DevExpress.XtraBars.Demos.DockingDemo;
+
+namespace AccSoftView.Display
+{
+    public partial class FrmLogin : DevExpress.XtraEditors.XtraForm
+    {
+        private frmMain fMain;
+        public FrmLogin()
+        {
+            InitializeComponent();
+            fMain = new frmMain(this);
+        }
+
+        private Boolean statusLogin(string user, string password)
+        {
+            user = user.ToUpper();
+            password = password.ToUpper();
+
+            /*MySqlConnection db = new MySqlConnection(connectionSQL);
+            db.Open();
+            MySqlCommand dbcmd = db.CreateCommand();
+            string sql = "select namaUser,Password from user";
+            dbcmd.CommandText = sql;
+            MySqlDataReader reader = dbcmd.ExecuteReader();
+            while (reader.Read())
+            {
+                if ((reader.GetString(0).ToString().ToUpper() == user) && (reader.GetString(1).ToString().ToUpper() == password))
+                {
+                    return true;
+                }
+            }
+            db.Close();
+            return false;*/
+            return true;
+        }
+
+        private void btn_masuk_Click(object sender, EventArgs e)
+        {
+            if (statusLogin(txt_pass.Text, txt_user.Text) == true)
+            {
+                FrmSplash FS = new FrmSplash(fMain);
+                FS.Show();
+                this.Visible = false;
+          
+            }
+            else
+            {
+                MessageBox.Show("Username atau password salah");
+            }
+        }
+
+        private void btn_batal_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+    }
+}

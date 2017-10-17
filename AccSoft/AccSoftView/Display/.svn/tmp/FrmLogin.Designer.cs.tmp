@@ -1,0 +1,371 @@
+namespace AccSoftView.Display
+{
+    partial class FrmLogin
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_user = new DevExpress.XtraEditors.TextEdit();
+            this.txt_pass = new DevExpress.XtraEditors.TextEdit();
+            this.btn_batal = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_masuk = new DevExpress.XtraEditors.SimpleButton();
+            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
+            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.cmb_password = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cmb_server = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cmb_db = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cmb_user = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.btn_testkonek = new DevExpress.XtraEditors.SimpleButton();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_user.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_pass.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
+            this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_password.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_server.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_db.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_user.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Location = new System.Drawing.Point(95, 12);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(265, 23);
+            this.labelControl1.TabIndex = 0;
+            this.labelControl1.Text = "Sistem Informasi Akuntansi\r\n";
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl2.Appearance.Options.UseFont = true;
+            this.labelControl2.Location = new System.Drawing.Point(140, 53);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(91, 13);
+            this.labelControl2.TabIndex = 2;
+            this.labelControl2.Text = "Nama Pengguna";
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl3.Appearance.Options.UseFont = true;
+            this.labelControl3.Location = new System.Drawing.Point(170, 85);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(59, 13);
+            this.labelControl3.TabIndex = 3;
+            this.labelControl3.Text = "Kata Kunci";
+            // 
+            // txt_user
+            // 
+            this.txt_user.EditValue = "";
+            this.txt_user.Location = new System.Drawing.Point(241, 50);
+            this.txt_user.Name = "txt_user";
+            this.txt_user.Size = new System.Drawing.Size(119, 20);
+            this.txt_user.TabIndex = 4;
+            // 
+            // txt_pass
+            // 
+            this.txt_pass.EditValue = "";
+            this.txt_pass.Location = new System.Drawing.Point(241, 82);
+            this.txt_pass.Name = "txt_pass";
+            this.txt_pass.Properties.PasswordChar = '*';
+            this.txt_pass.Size = new System.Drawing.Size(119, 20);
+            this.txt_pass.TabIndex = 5;
+            // 
+            // btn_batal
+            // 
+            this.btn_batal.Image = global::AccSoftView.Properties.Resources.No_entry;
+            this.btn_batal.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            this.btn_batal.Location = new System.Drawing.Point(283, 119);
+            this.btn_batal.Name = "btn_batal";
+            this.btn_batal.Size = new System.Drawing.Size(75, 32);
+            this.btn_batal.TabIndex = 6;
+            this.btn_batal.Text = "Batal";
+            this.btn_batal.Click += new System.EventHandler(this.btn_batal_Click);
+            // 
+            // btn_masuk
+            // 
+            this.btn_masuk.Image = global::AccSoftView.Properties.Resources.Masuk;
+            this.btn_masuk.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            this.btn_masuk.Location = new System.Drawing.Point(202, 119);
+            this.btn_masuk.Name = "btn_masuk";
+            this.btn_masuk.Size = new System.Drawing.Size(75, 32);
+            this.btn_masuk.TabIndex = 6;
+            this.btn_masuk.Text = "Masuk";
+            this.btn_masuk.Click += new System.EventHandler(this.btn_masuk_Click);
+            // 
+            // pictureEdit1
+            // 
+            this.pictureEdit1.EditValue = global::AccSoftView.Properties.Resources.Login;
+            this.pictureEdit1.Location = new System.Drawing.Point(22, 44);
+            this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.PictureAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit1.Size = new System.Drawing.Size(112, 124);
+            this.pictureEdit1.TabIndex = 1;
+            // 
+            // layoutControlGroup1
+            // 
+            this.layoutControlGroup1.CustomizationFormText = "layoutControlGroup1";
+            this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlGroup2});
+            this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlGroup1.Name = "layoutControlGroup1";
+            this.layoutControlGroup1.Size = new System.Drawing.Size(369, 196);
+            this.layoutControlGroup1.Spacing = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
+            this.layoutControlGroup1.Text = "layoutControlGroup1";
+            this.layoutControlGroup1.TextVisible = false;
+            // 
+            // layoutControl1
+            // 
+            this.layoutControl1.Controls.Add(this.btn_testkonek);
+            this.layoutControl1.Controls.Add(this.cmb_user);
+            this.layoutControl1.Controls.Add(this.cmb_db);
+            this.layoutControl1.Controls.Add(this.cmb_server);
+            this.layoutControl1.Controls.Add(this.cmb_password);
+            this.layoutControl1.Location = new System.Drawing.Point(2, 177);
+            this.layoutControl1.Name = "layoutControl1";
+            this.layoutControl1.Root = this.layoutControlGroup1;
+            this.layoutControl1.Size = new System.Drawing.Size(369, 196);
+            this.layoutControl1.TabIndex = 7;
+            this.layoutControl1.Text = "layoutControl1";
+            // 
+            // cmb_password
+            // 
+            this.cmb_password.Location = new System.Drawing.Point(94, 121);
+            this.cmb_password.Name = "cmb_password";
+            this.cmb_password.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cmb_password.Properties.Items.AddRange(new object[] {
+            "sa",
+            "systemadministrator"});
+            this.cmb_password.Size = new System.Drawing.Size(266, 20);
+            this.cmb_password.StyleController = this.layoutControl1;
+            this.cmb_password.TabIndex = 7;
+            // 
+            // cmb_server
+            // 
+            this.cmb_server.Location = new System.Drawing.Point(94, 28);
+            this.cmb_server.Name = "cmb_server";
+            this.cmb_server.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cmb_server.Properties.Items.AddRange(new object[] {
+            "192.168.5.120"});
+            this.cmb_server.Size = new System.Drawing.Size(266, 20);
+            this.cmb_server.StyleController = this.layoutControl1;
+            this.cmb_server.TabIndex = 8;
+            // 
+            // cmb_db
+            // 
+            this.cmb_db.Location = new System.Drawing.Point(94, 59);
+            this.cmb_db.Name = "cmb_db";
+            this.cmb_db.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cmb_db.Properties.Items.AddRange(new object[] {
+            "dbAccSoft"});
+            this.cmb_db.Size = new System.Drawing.Size(266, 20);
+            this.cmb_db.StyleController = this.layoutControl1;
+            this.cmb_db.TabIndex = 9;
+            // 
+            // cmb_user
+            // 
+            this.cmb_user.Location = new System.Drawing.Point(94, 90);
+            this.cmb_user.Name = "cmb_user";
+            this.cmb_user.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cmb_user.Properties.Items.AddRange(new object[] {
+            "sa"});
+            this.cmb_user.Size = new System.Drawing.Size(266, 20);
+            this.cmb_user.StyleController = this.layoutControl1;
+            this.cmb_user.TabIndex = 10;
+            // 
+            // layoutControlItem4
+            // 
+            this.layoutControlItem4.Control = this.cmb_password;
+            this.layoutControlItem4.CustomizationFormText = "layoutControlItem4";
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 93);
+            this.layoutControlItem4.Name = "layoutControlItem4";
+            this.layoutControlItem4.Size = new System.Drawing.Size(361, 31);
+            this.layoutControlItem4.Text = "Password ";
+            this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(79, 20);
+            // 
+            // layoutControlItem2
+            // 
+            this.layoutControlItem2.Control = this.cmb_db;
+            this.layoutControlItem2.CustomizationFormText = "Nama Database :";
+            this.layoutControlItem2.ImageAlignment = System.Drawing.ContentAlignment.TopRight;
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 31);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(361, 31);
+            this.layoutControlItem2.Text = "Nama Database ";
+            this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(79, 20);
+            // 
+            // layoutControlItem1
+            // 
+            this.layoutControlItem1.Control = this.cmb_server;
+            this.layoutControlItem1.CustomizationFormText = "Alamat Server :";
+            this.layoutControlItem1.ImageAlignment = System.Drawing.ContentAlignment.TopRight;
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem1.Name = "layoutControlItem1";
+            this.layoutControlItem1.Size = new System.Drawing.Size(361, 31);
+            this.layoutControlItem1.Text = "Alamat Server ";
+            this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(79, 20);
+            // 
+            // layoutControlItem3
+            // 
+            this.layoutControlItem3.Control = this.cmb_user;
+            this.layoutControlItem3.CustomizationFormText = "User :";
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 62);
+            this.layoutControlItem3.Name = "layoutControlItem3";
+            this.layoutControlItem3.Size = new System.Drawing.Size(361, 31);
+            this.layoutControlItem3.Text = "User ";
+            this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(79, 20);
+            // 
+            // layoutControlGroup2
+            // 
+            this.layoutControlGroup2.CustomizationFormText = "Pilih Server";
+            this.layoutControlGroup2.ExpandButtonVisible = true;
+            this.layoutControlGroup2.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem1,
+            this.layoutControlItem2,
+            this.layoutControlItem3,
+            this.layoutControlItem4,
+            this.layoutControlItem5});
+            this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlGroup2.Name = "layoutControlGroup2";
+            this.layoutControlGroup2.Size = new System.Drawing.Size(367, 194);
+            this.layoutControlGroup2.Text = "Pilih Server";
+            // 
+            // btn_testkonek
+            // 
+            this.btn_testkonek.Location = new System.Drawing.Point(10, 152);
+            this.btn_testkonek.Name = "btn_testkonek";
+            this.btn_testkonek.Size = new System.Drawing.Size(350, 22);
+            this.btn_testkonek.StyleController = this.layoutControl1;
+            this.btn_testkonek.TabIndex = 11;
+            this.btn_testkonek.Text = "Test Koneksi";
+            this.btn_testkonek.Click += new System.EventHandler(this.btn_testkonek_Click);
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.Control = this.btn_testkonek;
+            this.layoutControlItem5.CustomizationFormText = "layoutControlItem5";
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 124);
+            this.layoutControlItem5.Name = "layoutControlItem5";
+            this.layoutControlItem5.Size = new System.Drawing.Size(361, 46);
+            this.layoutControlItem5.Text = "layoutControlItem5";
+            this.layoutControlItem5.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem5.TextToControlDistance = 0;
+            this.layoutControlItem5.TextVisible = false;
+            // 
+            // FrmLogin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(372, 383);
+            this.Controls.Add(this.layoutControl1);
+            this.Controls.Add(this.btn_batal);
+            this.Controls.Add(this.btn_masuk);
+            this.Controls.Add(this.txt_pass);
+            this.Controls.Add(this.txt_user);
+            this.Controls.Add(this.labelControl3);
+            this.Controls.Add(this.labelControl2);
+            this.Controls.Add(this.pictureEdit1);
+            this.Controls.Add(this.labelControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FrmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FrmLogin";
+            ((System.ComponentModel.ISupportInitialize)(this.txt_user.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_pass.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
+            this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_password.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_server.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_db.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmb_user.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
+        private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.TextEdit txt_user;
+        private DevExpress.XtraEditors.TextEdit txt_pass;
+        private DevExpress.XtraEditors.SimpleButton btn_batal;
+        private DevExpress.XtraEditors.SimpleButton btn_masuk;
+        private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
+        private DevExpress.XtraLayout.LayoutControl layoutControl1;
+        private DevExpress.XtraEditors.ComboBoxEdit cmb_password;
+        private DevExpress.XtraEditors.ComboBoxEdit cmb_user;
+        private DevExpress.XtraEditors.ComboBoxEdit cmb_db;
+        private DevExpress.XtraEditors.ComboBoxEdit cmb_server;
+        private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup2;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
+        private DevExpress.XtraEditors.SimpleButton btn_testkonek;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
+    }
+}

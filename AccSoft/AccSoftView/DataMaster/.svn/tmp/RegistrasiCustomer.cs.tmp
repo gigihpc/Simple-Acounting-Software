@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using DevExpress.XtraEditors;
+
+namespace AccSoftView.DataMaster
+{
+    public partial class Reg_Customer : DevExpress.XtraEditors.XtraForm
+    {
+        public Reg_Customer()
+        {
+            InitializeComponent();
+        }
+
+        private void textEdit10_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textEdit13_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+<<<<<<< .mine
+
+        private void cmd_cancel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+=======
+
+        private void cmd_cancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+>>>>>>> .r27
+    }
+}

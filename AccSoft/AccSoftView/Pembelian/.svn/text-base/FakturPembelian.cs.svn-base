@@ -1,0 +1,155 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using DevExpress.XtraEditors;
+using DevExpress.XtraGrid.Views.Grid;
+using AccSoftView.DataMaster;
+using AccModelService;
+using AccController;
+
+namespace AccSoftView.Pembelian
+{
+    public partial class FakturPembelian : DevExpress.XtraEditors.XtraForm, IView
+    {
+        private FakturPembelianModel fakturPembModel;
+        private FakturPembelianControl fakturPembControl;
+        private bool binded = false;
+        public FakturPembelian()
+        {
+            InitializeComponent();
+            fakturPembModel = new FakturPembelianModel();
+            fakturPembModel.Attach(this);
+            fakturPembControl = new FakturPembelianControl(fakturPembModel);
+        }
+
+        private void btnAddSuplier_Click(object sender, EventArgs e)
+        {
+            RegistrasiSuplier frmRegSuplier = new RegistrasiSuplier();
+            frmRegSuplier.ShowDialog();
+        }
+
+        public void SetDataModel()
+        {
+            fakturPembModel.No_bpb = cbNoBpb.Text;
+            fakturPembModel.Tgl_transaksi = dtTglTransaksi.DateTime;
+            fakturPembModel.Surat_jalan = cbSuratJalan.Text;
+            fakturPembModel.Status_transaksi = cbStatusTransaksi.Text;
+            fakturPembModel.ExNoSPB = txtExNoSpb.Text;
+            fakturPembModel.Tgl_SPB = dtTglSpb.DateTime;
+            fakturPembModel.KodeSuplier = cbKodeSuplier.Text;
+            fakturPembModel.Tgl_jatuh_tempo = dtJatuhTempo.DateTime;
+            fakturPembModel.NoFakturPajak = txtNoFakturPajak.Text;
+            fakturPembModel.TglFakturPajak = dtTglFakturPjk.DateTime;
+            fakturPembModel.Ket = txtKeterangan.Text;
+            fakturPembModel.MataUang = "rupiah";
+
+            fakturPembModel.ClearItem();
+            for (int i = 0; i < dataGridView1.RowCount - 1; i++)
+            {
+                fakturPembModel.AddItem(dataGridView1.Rows[i].Cells[0].Value.ToString(),
+                    Convert.ToDouble(dataGridView1.Rows[i].Cells[1].Value.ToString()), Convert.ToInt32(dataGridView1.Rows[i].Cells[2].Value.ToString()),
+                    Convert.ToDouble(dataGridView1.Rows[i].Cells[3].Value.ToString()));
+            }
+        }
+
+        public void BindingControl()
+        {
+            cbNoBpb.DataSource = DataManager.Instance.DsAccSoft.Tables["pembelian"];
+            cbNoBpb.DisplayMember = "no_bpb";
+            cbNoBpb.ValueMember = "no_bpb";
+            cbKodeSuplier.DataSource = DataManager.Instance.DsAccSoft.Tables["suplier"];
+            cbKodeSuplier.DisplayMember = "kode_suplier";
+            cbKodeSuplier.ValueMember = "kode_suplier";
+            cbNamaSuplier.DataSource = DataManager.Instance.DsAccSoft.Tables["suplier"];
+            cbNamaSuplier.DisplayMember = "nama_suplier";
+            cbNamaSuplier.ValueMember = "nama_suplier";
+            ColumnKodeItem.DataSource = DataManager.Instance.DsAccSoft.Tables["item"];
+            ColumnKodeItem.DisplayMember = "nama_item";
+            ColumnKodeItem.ValueMember = "kode_item";
+
+            binded = true;
+        }
+
+        #region IView Members
+
+        public void UpdateView()
+        {
+            dtTglTransaksi.DateTime = fakturPembModel.Tgl_transaksi;
+            cbSuratJalan.Text = fakturPembModel.Surat_jalan;
+            cbStatusTransaksi.Text = fakturPembModel.Status_transaksi;
+            txtExNoSpb.Text = fakturPembModel.ExNoSPB;
+            dtTglSpb.DateTime = fakturPembModel.Tgl_SPB;
+            cbKodeSuplier.SelectedValue = (object)fakturPembModel.KodeSuplier;
+            dtJatuhTempo.DateTime = fakturPembModel.Tgl_jatuh_tempo;
+            txtNoFakturPajak.Text = fakturPembModel.NoFakturPajak;
+            dtTglFakturPjk.DateTime = fakturPembModel.TglFakturPajak;
+            txtKeterangan.Text = fakturPembModel.Ket;
+
+            dataGridView1.Rows.Clear();
+            for (int i = 0; i < fakturPembModel.KodeItem.Count; i++)
+            {               
+                DataGridViewRow row = new DataGridViewRow();
+
+                row.CreateCells(dataGridView1);
+                row.Cells[0].Value = fakturPembModel.KodeItem[i];
+                row.Cells[1].Value = fakturPembModel.HargaSatuan[i];
+                row.Cells[2].Value = fakturPembModel.JumItem[i];
+                row.Cells[3].Value = fakturPembModel.Total[i];
+
+                dataGridView1.Rows.Add(row);
+            }
+        }
+
+        #endregion
+
+        private void cmd_save_Click(object sender, EventArgs e)
+        {
+            SetDataModel();
+            MessageBox.Show(fakturPembControl.Add());
+        }
+
+        private void cbNoBpb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (binded)
+            {
+                fakturPembModel.No_bpbKey = cbNoBpb.Text;
+                fakturPembModel.Select();
+            }
+        }
+
+        public void SetKey(String no_bpb)
+        {
+            fakturPembModel.No_bpbKey = no_bpb;
+        }
+
+        private void FakturPembelian_Load(object sender, EventArgs e)
+        {
+            //Binding control with dataset here
+            BindingControl();
+
+            if (fakturPembModel.No_bpbKey.CompareTo("") != 0)
+                cbNoBpb.SelectedValue = (object)fakturPembModel.No_bpbKey;
+            else
+            {
+                cbNoBpb.SelectedIndex = -1;
+            }
+        }
+
+        private void cmd_delete_Click(object sender, EventArgs e)
+        {
+            SetDataModel();
+            MessageBox.Show(fakturPembControl.Delete());
+        }
+
+        private void cmd_edit_Click(object sender, EventArgs e)
+        {
+            SetDataModel();
+            MessageBox.Show(fakturPembControl.Update());
+        }
+    }
+}
+

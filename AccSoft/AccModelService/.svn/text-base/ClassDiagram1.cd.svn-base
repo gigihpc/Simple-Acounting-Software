@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="9" />
+  <Class Name="AccModelService.ConnManager" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ConnManager.cs</FileName>
+      <HashCode>gAAEAAAAAAAAAACAAAAAABAAAQAAAAAAQBAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccModelService.CustomerModel" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CustomerModel.cs</FileName>
+      <HashCode>AD4ACBAQgAAQAIAEEBBABDIQQgECYAIAFMAAQCRIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccModelService.DataManager" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataManager.cs</FileName>
+      <HashCode>AAAEAAAAACABABAAAAAAAACAAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccModelService.LoginModel" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>LoginModel.cs</FileName>
+      <HashCode>ABAACAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccModelService.SuplierModel" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SuplierModel.cs</FileName>
+      <HashCode>ABYCCAAQCAAUAAgAFgACEBIAEhECgBIAEIACQBBAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccModelService.DataModel">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataModel.cs</FileName>
+      <HashCode>AAAAEAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="viewers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AccModelService.FakturPembelianModel" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FakturPembelianModel.cs</FileName>
+      <HashCode>CAYACCIAAAAHCAwMAgAAAAAgkAECQAQIAACAYABACAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="AccModelService.DataModel" ManuallyRouted="true">
+      <Path>
+        <Point X="3" Y="2.18" />
+        <Point X="3" Y="3.139" />
+        <Point X="4.75" Y="3.139" />
+        <Point X="4.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="AccModelService.FakturPenjualanModel" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FakturPenjualanModel.cs</FileName>
+      <HashCode>CAYICEAAAAABCIDAAgAAAIAgkAEKQAAFACCAQABAggA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="AccModelService.DataModel" ManuallyRouted="true">
+      <Path>
+        <Point X="3" Y="2.18" />
+        <Point X="3" Y="3.139" />
+        <Point X="6.5" Y="3.139" />
+        <Point X="6.5" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="AccModelService.CNPembelianModel" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CNPembelianModel.cs</FileName>
+      <HashCode>AAYACAAAAAAAAAQBAAAAAQAAAAECAAAAAQABUABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccModelService.PembHutangModel" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PembHutangModel.cs</FileName>
+      <HashCode>hAYACAAAAAAAAAAAAgABAAAAAAECAAEAAQAAUABAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccModelService.KodePerkiraanModel">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>KodePerkiraanModel.cs</FileName>
+      <HashCode>AAYACAAAAAQAAAAAAAAAAACAAgECAAAAAAQAwABAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AccModelService.IView">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IView.cs</FileName>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

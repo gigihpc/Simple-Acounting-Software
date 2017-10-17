@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccModelService
+END
+FakturPenjualanModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tapir-s-accounting-software/!svn/ver/63/trunk/AccSoft/AccModelService/FakturPenjualanModel.cs
+END
+PembHutangModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tapir-s-accounting-software/!svn/ver/69/trunk/AccSoft/AccModelService/PembHutangModel.cs
+END
+MatauangModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tapir-s-accounting-software/!svn/ver/52/trunk/AccSoft/AccModelService/MatauangModel.cs
+END
+ItemModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tapir-s-accounting-software/!svn/ver/74/trunk/AccSoft/AccModelService/ItemModel.cs
+END
+CustomerModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tapir-s-accounting-software/!svn/ver/51/trunk/AccSoft/AccModelService/CustomerModel.cs
+END
+IView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tapir-s-accounting-software/!svn/ver/39/trunk/AccSoft/AccModelService/IView.cs
+END
+AccModelService.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccModelService/AccModelService.csproj
+END
+BrgMasukAPGModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccModelService/BrgMasukAPGModel.cs
+END
+GudangModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccModelService/GudangModel.cs
+END
+BrgKeluarAPGModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccModelService/BrgKeluarAPGModel.cs
+END
+ConnManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tapir-s-accounting-software/!svn/ver/73/trunk/AccSoft/AccModelService/ConnManager.cs
+END
+PembayaranPiutangModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tapir-s-accounting-software/!svn/ver/74/trunk/AccSoft/AccModelService/PembayaranPiutangModel.cs
+END
+LoginModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tapir-s-accounting-software/!svn/ver/48/trunk/AccSoft/AccModelService/LoginModel.cs
+END
+FakturPembelianModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tapir-s-accounting-software/!svn/ver/56/trunk/AccSoft/AccModelService/FakturPembelianModel.cs
+END
+DataModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tapir-s-accounting-software/!svn/ver/39/trunk/AccSoft/AccModelService/DataModel.cs
+END
+ClassDiagram1.cd
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tapir-s-accounting-software/!svn/ver/75/trunk/AccSoft/AccModelService/ClassDiagram1.cd
+END
+CNPembelianModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tapir-s-accounting-software/!svn/ver/69/trunk/AccSoft/AccModelService/CNPembelianModel.cs
+END
+UserModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tapir-s-accounting-software/!svn/ver/52/trunk/AccSoft/AccModelService/UserModel.cs
+END
+KodePerkiraanModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tapir-s-accounting-software/!svn/ver/75/trunk/AccSoft/AccModelService/KodePerkiraanModel.cs
+END
+CnDnPenjualanModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tapir-s-accounting-software/!svn/ver/70/trunk/AccSoft/AccModelService/CnDnPenjualanModel.cs
+END
+SuplierModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tapir-s-accounting-software/!svn/ver/76/trunk/AccSoft/AccModelService/SuplierModel.cs
+END
+DataManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccModelService/DataManager.cs
+END

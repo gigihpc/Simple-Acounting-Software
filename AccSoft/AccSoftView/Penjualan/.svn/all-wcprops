@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccSoftView/Penjualan
+END
+CN_DNPenjualan.resx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tapir-s-accounting-software/!svn/ver/7/trunk/AccSoft/AccSoftView/Penjualan/CN_DNPenjualan.resx
+END
+CN_DNPenjualan.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tapir-s-accounting-software/!svn/ver/84/trunk/AccSoft/AccSoftView/Penjualan/CN_DNPenjualan.designer.cs
+END
+CN_DNPenjualan.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tapir-s-accounting-software/!svn/ver/70/trunk/AccSoft/AccSoftView/Penjualan/CN_DNPenjualan.cs
+END
+PencairanCekMasuk.resx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tapir-s-accounting-software/!svn/ver/25/trunk/AccSoft/AccSoftView/Penjualan/PencairanCekMasuk.resx
+END
+PembayaranPiutang.resx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tapir-s-accounting-software/!svn/ver/25/trunk/AccSoft/AccSoftView/Penjualan/PembayaranPiutang.resx
+END
+PencairanCekMasuk.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tapir-s-accounting-software/!svn/ver/25/trunk/AccSoft/AccSoftView/Penjualan/PencairanCekMasuk.Designer.cs
+END
+PencairanCekMasuk.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tapir-s-accounting-software/!svn/ver/25/trunk/AccSoft/AccSoftView/Penjualan/PencairanCekMasuk.cs
+END
+FakturPenjualan.resx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tapir-s-accounting-software/!svn/ver/61/trunk/AccSoft/AccSoftView/Penjualan/FakturPenjualan.resx
+END
+PembayaranPiutang.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tapir-s-accounting-software/!svn/ver/74/trunk/AccSoft/AccSoftView/Penjualan/PembayaranPiutang.Designer.cs
+END
+PembayaranPiutang.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tapir-s-accounting-software/!svn/ver/74/trunk/AccSoft/AccSoftView/Penjualan/PembayaranPiutang.cs
+END
+FakturPenjualan.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccSoftView/Penjualan/FakturPenjualan.Designer.cs
+END
+FakturPenjualan.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tapir-s-accounting-software/!svn/ver/85/trunk/AccSoft/AccSoftView/Penjualan/FakturPenjualan.cs
+END
